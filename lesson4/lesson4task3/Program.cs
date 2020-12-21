@@ -8,6 +8,14 @@ namespace lesson4task3
 {
     class Program
     {
+        enum Seasons
+        {
+            Winter = 1,
+            Spring = 2,
+            Summer = 3,
+            Autumn = 4
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Введите номер месяца: ");
@@ -20,14 +28,6 @@ namespace lesson4task3
             }
             Console.WriteLine(GetSeasonName(GetSeason(monthNumber)));
             Console.ReadKey();
-        }
-
-        enum Seasons
-        {
-            Winter = 1,
-            Spring = 2,
-            Summer = 3,
-            Autumn = 4
         }
 
         static Seasons GetSeason(int monthNumber)

@@ -10,10 +10,8 @@ namespace lesson4task1
     {
         static string GetFullName(string firstName, string lastName, string patronymic)
         {
-            string fullName = firstName + " " + patronymic + " " + lastName;
-            return fullName;
+            return $"{firstName} {patronymic} {lastName}";
         }
-
 
         static void Main(string[] args)
         {

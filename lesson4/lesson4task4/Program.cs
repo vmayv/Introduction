@@ -9,7 +9,7 @@ namespace lesson4task4
     class Program
     {
         static int Fibonacci(int i)
-        { 
+        {
             if (i == 0)
             {
                 return 0;
