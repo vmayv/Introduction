@@ -29,8 +29,7 @@ namespace lesson6task1
                     return;
                 }
 
-                int a = 0;
-                if (int.TryParse(input, out a))
+                if (int.TryParse(input, out int a))
                 {
                     EndProcess(a, processes);
                 }
